@@ -55,7 +55,7 @@ const Greeting = () => {
   return (
     <Wrapper>
       <Divider style={{ marginTop: 32, marginBottom: 32 }} plain>
-        <Title data-aos="fade-up">초대합니다</Title>
+        <Title data-aos="fade-in">결혼합니다</Title>
       </Divider>
       <Image data-aos="fade-up" src={Flower} />
       <Content data-aos="fade-up">
@@ -72,11 +72,14 @@ const Greeting = () => {
         <br />
         <br />
         앞날을 축복해 주시면 감사하겠습니다.
+        <br />
+        <br />
+        <br />
       </Content>
       <GroomBride data-aos="fade-up">
-        {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 {GROOM_NAME}
+        {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 <b>{GROOM_NAME}</b>
         <br />
-        {BRIDE_FATHER_NAME} · {BRIDE_MOTHER_NAME}의 장녀 {BRIDE_NAME}
+        {BRIDE_FATHER_NAME} · {BRIDE_MOTHER_NAME}의 장녀 <b>{BRIDE_NAME}</b>
       </GroomBride>
     </Wrapper>
   );

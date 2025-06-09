@@ -1,8 +1,9 @@
 :root {
-  --title-color: #d97d83;
+  --title-color: #42283a;
 }
+
 * {
-  font-family: "Noto Serif KR", serif, -apple-system, BlinkMacSystemFont,
+  font-family: "Do Hyeon", sans-serif, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -32,7 +33,6 @@
   }
 }
 @-moz-keyframes fadein {
-  /* Firefox */
   from {
     opacity: 0;
   }
@@ -41,7 +41,6 @@
   }
 }
 @-webkit-keyframes fadein {
-  /* Safari and Chrome */
   from {
     opacity: 0;
   }
@@ -50,7 +49,6 @@
   }
 }
 @-o-keyframes fadein {
-  /* Opera */
   from {
     opacity: 0;
   }
@@ -67,4 +65,11 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+/* Do Hyeon 폰트 정의 */
+.do-hyeon-regular {
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
